@@ -21,7 +21,7 @@ export const EndScreen = () => {
             <h4>Your Score: <b>{score*10}</b> out of <b>{Question.length*10}</b></h4>
             <h4>Wrong Answer: {Question.length-score}</h4>
             <h4>Percentage:{percentage}%</h4>
-            <button onClick={RestartGame} className="nextq">Play Again</button>
+            <button onClick={RestartGame} className="nextq">Play Again!!!</button>
         </div>
     );
 }
