@@ -16,7 +16,7 @@ export const EndScreen = () => {
     }
     return (
         <div className="menu">
-            <h1   style={{ color: 'white',  backgroundColor:'#046ca8' }}>Quiz has Ended!</h1>
+            <h1   style={{ color: 'white',  backgroundColor:'#046ca8' }}>Quiz has Finished!</h1>
             <h4>Total Questions: {Question.length}</h4>
             <h4>Your Score: <b>{score*10}</b> out of <b>{Question.length*10}</b></h4>
             <h4>Wrong Answer: {Question.length-score}</h4>
