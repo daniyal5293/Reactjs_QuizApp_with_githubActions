@@ -5,7 +5,7 @@ function Menu() {
     const {gameState,setGameState,userName, setUserName} = useContext(GameStateContext)
     return (
         <div className="menu">
-            <label><b>Enter Your Name :</b></label>
+            <label><b> Your Name :</b></label>
 
             <input type="tex" placeholder="Your Name..."
              onChange={(event) => {setUserName(event.target.value)}}/>
